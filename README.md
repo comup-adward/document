@@ -242,6 +242,38 @@ domain | X | string
 ext | X | object
 <br>
 
+## Content Object
+
+Attribute | Supported | Type | Scope
+:--- | :---: | :---: | :---
+id | O | string | optional
+episode | X | integer
+title | O | string | optional
+series | X | string
+season | X | string
+artist | X | string
+genre | O | string | optional
+album | X | string
+isrc | X | string
+producer | X | object
+url | X | string
+cat | O | string array | optional
+prodq | X | integer
+videoquality | X | integer
+context | O | integer | optional
+contentrating | X | string
+userration | X | string
+gagmediarating | X | integer
+keywords | O | string | optional
+livestream | X | integer
+sourcerelationship | X | integer
+len | X | integer
+language | X | string
+embeddable | X | integer
+data | X | object array
+ext | X | object
+<br>
+
 ## Device Object
 
 Attribute | Supported | Type | Scope

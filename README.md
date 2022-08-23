@@ -194,7 +194,7 @@ ext | O | object |  optional
 Attribute | Supported | Type | Scope
 :--- | :---: | :---: | :---
 id | O | string |  **always passed**
-name | O | string |  optional
+name | O | string |  **always passed**
 domain | O | string |  **always passed**
 cat | O | string array |  optional
 sectioncat | O | string array |  optional
@@ -215,7 +215,7 @@ ext | O | object |  optional
 Attribute | Supported | Type | Scope
 :--- | :---: | :---: | :---
 id | O | string |  **always passed**
-name | O | string |  optional
+name | O | string |  **always passed**
 bundle | O | string |  **always passed**
 domain | O | string |  optional
 storeurl | O | string |  optional
@@ -720,8 +720,8 @@ lurl | O | string |  optional
 adm | O | string |  **required**, Format: HTML<br>Win notice URL must be included within HTML.
 adomain | O | string array |  recommended
 iurl | O | string |  recommended
-cid | O | string |  **required**
-crid | O | string |  **required**
+cid | O | string |  recommended
+crid | O | string |  recommended
 api | O | integer |  optional
 bundle | O | string |  recommended
 attr | O | integer array |  optional

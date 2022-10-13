@@ -23,7 +23,7 @@ If you have any questions or require further clarity about this guide, you can r
 Object | Supported 
 :--- | :---
 BidRequest | O 
-Source | X 
+Source | O 
 Regs | O 
 Imp | O 
 Metric | X 
@@ -73,7 +73,7 @@ wlang | X | string array
 bcat | O | string array | optional
 badv | O | string array | optional
 bapp | O | string array | optional
-source | X | object 
+source | O | object | optional
 regs | O | object | optional
 ext | O | object | optional
 <br>
@@ -88,8 +88,8 @@ banner | O | object |  **always passed**(for banner imp)
 video | O | object |  **always passed**(for video imp)
 native | O | object |  **always passed**(for native imp)
 pmp | O | object |  optional
-displaymanager | O | string |  optional(for video/native imp)
-displaymanagerver | O | string |  optional(for video/native imp)
+displaymanager | O | string |  optional
+displaymanagerver | O | string |  optional
 instl | O | integer |  optional
 tagid | O | string |  **always passed**
 bidfloor | O | float |  **always passed**
@@ -337,6 +337,16 @@ customdata | X | string
 geo | O | object |  optional
 data | O | object array |  optional
 ext | O | object |  optional
+<br>
+
+## Source Object
+
+Attribute | Supported | Type | Scope
+:--- | :---: | :---: | :---
+fd | O | integer |  optional
+tid | O | integer |  optional
+pchain | O | string |  optional
+ext | O | object |  optional(schain)
 <br>
 
 ## Reg Object
